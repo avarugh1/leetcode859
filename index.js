@@ -47,7 +47,7 @@ var buddyStrings = function(A, B) {
         return (newStr === B);
     }
 
-    // else return false as the number of indices to swap was not 0 or 2
+    // else return false as the number of indices to swap was (0 without duplicates) or (not 0 or 2)
     return false;
 };
 
